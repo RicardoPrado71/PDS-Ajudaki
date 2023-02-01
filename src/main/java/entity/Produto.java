@@ -57,5 +57,15 @@ public class Produto {
         this.peso = peso;
     }
 
-
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "quantEstoque=" + quantEstoque +
+                ", vlrVendas=" + vlrVendas +
+                ", vlrCusto=" + vlrCusto +
+                ", nomeProduto='" + nomeProduto + '\'' +
+                ", unidade='" + unidade + '\'' +
+                ", peso=" + peso +
+                '}';
+    }
 }
